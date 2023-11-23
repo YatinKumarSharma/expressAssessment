@@ -51,15 +51,15 @@ write npm start in terminal
 
 For User APIs      ({{URL}}  is http://localhost:5000 )
 
-for signup  ->       {{URL}}/api/users
-for login   ->       {{URL}}/api/users/login
+{for signup  ->       {{URL}}/api/users}
+{for login   ->       {{URL}}/api/users/login}
 
 For Notes Api
 
-For Getting all the notes               ->       {{URL}}/api/notes                       ->  Get
-FOr Creating Notes                      ->       {{URL}}/api/notes/create                ->  Post
-For Getting notes with specific id      ->       {{URL}}/api/notes/:id                   -> Get
-For Updating noted with specific id     ->       {{URL}}/api/notes/:id                   -> Put
-For Deleting a note                     ->       {{URL}}/api/notes/:id                   -> Delete
-For searching a note based on kwywords  ->       {{URL}}/api/notes/search?q=your_query   -> Get 
+{For Getting all the notes               ->       {{URL}}/api/notes                       ->  Get}
+{For Creating Notes                      ->       {{URL}}/api/notes/create                ->  Post}
+{For Getting notes with specific id      ->       {{URL}}/api/notes/:id                   -> Get}
+{For Updating noted with specific id     ->       {{URL}}/api/notes/:id                   -> Put}
+{For Deleting a note                     ->       {{URL}}/api/notes/:id                   -> Delete}
+{For searching a note based on kwywords  ->       {{URL}}/api/notes/search?q=your_query   -> Get} 
 
